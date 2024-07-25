@@ -18,7 +18,7 @@ if (navigator.geolocation) {
   );
 }
 
-let map = L.map("map").setView([0, 0], 100);
+let map = L.map("map").setView([0, 0], 15);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}", {
   foo: "bar",
